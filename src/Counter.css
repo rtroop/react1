@@ -1,0 +1,65 @@
+.Counter {
+  display: flex;
+  border-style: solid;
+  border-top-left-radius: 25%;
+  box-shadow: 3pt 1pt 2pt #0000009e;
+}
+
+ .Counter-body { 
+  font: normal 14px/100% "Andale Mono", AndaleMono, monospace;
+  color: #fff;
+  padding: 0px;
+  width: 300px;
+  height: 200px;
+  margin: 0px auto;
+  text-align: center;
+  background-image: url("https://picsum.photos/200/300?grayscale");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-origin: content-box;   
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  /* align-items:flex-end; */
+  
+} 
+
+.Counter-h1 {
+  font-size: 50px;
+  color:#3b3b41;
+  text-shadow: 0px 0px 5px  #3a3a3a;
+  -webkit-text-stroke: #ffffff 1pt;
+  
+}
+
+.Counter-container {
+  margin: 5% auto;
+  padding: 2pt;
+  background-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-width: 7px;
+  border-color: black;
+  box-shadow: 2pt 2pt 2pt black;
+  align-items: baseline;
+  
+  }
+  
+.Counter-button {
+    display: inline-block;
+    background-color: #3b3b41;
+    border-radius: 25%;
+    border-color:#fff;
+    border-width: 4pt;
+    width: 30px;
+    margin: 10px;
+    padding: 2px;
+    text-align: center;
+    text-shadow: .3pt .7pt .8pt  #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    align-self: flex-end;
+    
+  }
+  
